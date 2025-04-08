@@ -1,0 +1,163 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1743527271,
+        "narHash": "sha256-EuanEW1qqXZ2h0zJnq7uz8BoHbsgHgUrqWkCZHwZ9FA=",
+        "path": "/nix/store/kk0wdsaqmdv425a08p9yqrchw7f890ys-source",
+        "rev": "f4d9d1e2ad19d544a0a0cf3f8f371c6139c762e9",
+        "type": "path"
+      },
+      "original": {
+        "id": "home-manager",
+        "type": "indirect"
+      }
+    },
+    "neoclip": {
+      "inputs": {
+        "neoclip": "neoclip_2",
+        "nixpkgs": "nixpkgs_2",
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1742297646,
+        "narHash": "sha256-fUJsqcBtXKVutsa5EMc6R9hoz+mtOth19/kKz/E+NRI=",
+        "owner": "neoclip-nvim",
+        "repo": "neoclip-flake",
+        "rev": "620d1842cff60b7e2a41a41c96a61754d3f2a9dc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "neoclip-nvim",
+        "repo": "neoclip-flake",
+        "type": "github"
+      }
+    },
+    "neoclip_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742217964,
+        "narHash": "sha256-NEIoNYnlXUTYPA7F8xr7aKZjJ2hPhT96gQ7PmPdSovA=",
+        "owner": "matveyt",
+        "repo": "neoclip",
+        "rev": "dcff26d98fde73664b7dffb916834b544ed50c11",
+        "type": "github"
+      },
+      "original": {
+        "owner": "matveyt",
+        "repo": "neoclip",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1743095683,
+        "narHash": "sha256-gWd4urRoLRe8GLVC/3rYRae1h+xfQzt09xOfb0PaHSk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1740463929,
+        "narHash": "sha256-4Xhu/3aUdCKeLfdteEHMegx5ooKQvwPHNkOgNCXQrvc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "5d7db4668d7a0c6cc5fc8cf6ef33b008b2b1ed8b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1743964447,
+        "narHash": "sha256-nEo1t3Q0F+0jQ36HJfbJtiRU4OI+/0jX/iITURKe3EE=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "063dece00c5a77e4a0ea24e5e5a5bd75232806f8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "neoclip": "neoclip",
+        "nixpkgs": "nixpkgs_3",
+        "vim-kitty": "vim-kitty"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "vim-kitty": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1741611345,
+        "narHash": "sha256-JsXETIF9Szazw1ck5cxBAqr7vVml7JCO2y2dB+LfcS4=",
+        "owner": "fladson",
+        "repo": "vim-kitty",
+        "rev": "cb2ecc9a08638c20f22dade37683a3e8e1ba657b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fladson",
+        "repo": "vim-kitty",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
