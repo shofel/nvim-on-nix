@@ -131,14 +131,14 @@ let
 in {
   # This package uses config files directly from `configPath`
   # Restart nvim to apply changes in config
-  nvim-shovel-mutable = mkNeovim {
+  nvim-shofel-mutable = mkNeovim {
     inherit plugins extraPackages;
     inherit outOfStoreConfig;
   };
 
   # This package uses the config files saved in nix store
   # Rebuild to apply changes in config: e.g. `nix run .#nvim-sealed`
-  nvim-shovel-sealed = mkNeovim {
+  nvim-shofel-sealed = mkNeovim {
     inherit plugins extraPackages;
     inherit immutableConfig;
     appName = "nvim-sealed";
@@ -148,7 +148,7 @@ in {
   # neorg adds a lot to startup time, and is not to be lazy-loaded
   # Then let's make a separate `neorg` executable.
   # @see `plugin/neorg.lua`: the file is executed only when NVIM_APPNAME==neorg
-  nvim-shovel-neorg = mkNeovim {
+  nvim-shofel-neorg = mkNeovim {
     inherit plugins extraPackages;
     inherit outOfStoreConfig;
     appName = "neorg";
